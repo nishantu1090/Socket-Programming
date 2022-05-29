@@ -8,14 +8,15 @@ Server does the search of pattern in File in a separate process, so that it does
 
 ## To run the program
 Compile the server code with the below command:<br />
- ```gcc server.c -0 server```
- Run the server with the below command <br />
- ```./server <port-number>
+ ```gcc server.c -0 server```<br/>
+ Run the server with the below command: <br />
+ ```./server <port-number>```<br />
  
- Similarly compile the client program(dgrep.c)<br />
+ Similarly compile the client program(dgrep.c) with the below command:<br />
+ ```gcc dgrep.c -o client```<br />
  
  Run the client program with the below command: < br />
- ```./client <pattern> <File-1 name> <File-2 name>```
+ ```./client <pattern> <File-1 name> <File-2 name>```<br/>
  
  You will get an output that combines the pattern search results on the two files.
 
