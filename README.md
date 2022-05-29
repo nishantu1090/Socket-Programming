@@ -8,7 +8,7 @@ Server does the search of pattern in File in a separate process, so that it does
 
 ## To run the program
 Compile the server code with the below command:<br />
- ```gcc server.c -0 server```<br/>
+ ```gcc server.c -o server```<br/>
  Run the server with the below command: <br />
  ```./server <port-number>```<br />
  
