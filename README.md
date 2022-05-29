@@ -15,7 +15,7 @@ Compile the server code with the below command:<br />
  Similarly compile the client program(dgrep.c) with the below command:<br />
  ```gcc dgrep.c -o client```<br />
  
- Run the client program with the below command: < br />
+ Run the client program with the below command: <br />
  ```./client <pattern> <File-1 name> <File-2 name>```<br/>
  
  You will get an output that combines the pattern search results on the two files.
